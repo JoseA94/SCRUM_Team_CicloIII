@@ -1,0 +1,26 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tabla td, .tabla th{
+    padding: 8px;
+    border:1px solid #ddd;
+
+}
+
+.tabla th{
+    background-color: rgb(51, 216, 51);
+    color:white;
+    padding-top:12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+.tabla tr:nth-child(even){
+    background-color: tomato;
+}
+
+.tabla tr:hover{
+    background-color: yellowgreen;
+    cursor:pointer;
+}

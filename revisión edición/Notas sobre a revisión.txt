@@ -1,0 +1,3 @@
+Los datos si se están capturando del front como se ve en el console.log("esta es toda la info del formulario ")
+pero, al momento de enviarse, no está llegando la información al backend.  en insomnia ( similar a postman), el backend 
+está funcionando bien, según esto, es desde el frontend que podría estar el error. 
